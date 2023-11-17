@@ -4,7 +4,12 @@ export default defineNuxtConfig({
   typescript: {
     strict: true,
   },
-  modules: ['@unocss/nuxt', '@vueuse/nuxt', '@nuxtjs/eslint-module'],
+  modules: [
+    '@unocss/nuxt',
+    '@vueuse/nuxt',
+    '@nuxtjs/eslint-module',
+    '@pinia/nuxt',
+  ],
   css: ['@unocss/reset/tailwind.css'],
   ssr: false,
 });
