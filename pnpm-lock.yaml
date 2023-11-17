@@ -22,6 +22,9 @@ devDependencies:
   '@typescript-eslint/parser':
     specifier: ^6.11.0
     version: 6.11.0(eslint@8.53.0)(typescript@5.2.2)
+  '@unocss/eslint-config':
+    specifier: ^0.57.5
+    version: 0.57.5(eslint@8.53.0)(typescript@5.2.2)
   '@unocss/nuxt':
     specifier: ^0.57.5
     version: 0.57.5(postcss@8.4.31)(vite@4.5.0)(webpack@5.89.0)
@@ -2032,6 +2035,32 @@ packages:
 
   /@unocss/core@0.57.5:
     resolution: {integrity: sha512-AeNS88zdHjNVlIoaP2+EeN5j6C/7dy6qxNs5BFC4NzmvZf9IyeLLaVxK6qPWjRihXBpkYEuXOtm7TPcVylhFOA==}
+    dev: true
+
+  /@unocss/eslint-config@0.57.5(eslint@8.53.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-gUlUvkvu8pJJjr+x6TeHAaHaXhcT2a32iLDWVmX+oKpKfKgiJz19L/j5tArg2Fsn6GfYPea4Xi5VDIGv50421Q==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@unocss/eslint-plugin': 0.57.5(eslint@8.53.0)(typescript@5.2.2)
+    transitivePeerDependencies:
+      - eslint
+      - supports-color
+      - typescript
+    dev: true
+
+  /@unocss/eslint-plugin@0.57.5(eslint@8.53.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-wocly5k1I8XeKKg7tad4rcDbd60QPESWrdoZUhqBusDNLKOuFmyhh7PX+NtaJMmUu5xT4z/Y84KF4zgZ0hXBPg==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@typescript-eslint/utils': 6.11.0(eslint@8.53.0)(typescript@5.2.2)
+      '@unocss/config': 0.57.5
+      '@unocss/core': 0.57.5
+      magic-string: 0.30.5
+      synckit: 0.8.5
+    transitivePeerDependencies:
+      - eslint
+      - supports-color
+      - typescript
     dev: true
 
   /@unocss/extractor-arbitrary-variants@0.57.5:
