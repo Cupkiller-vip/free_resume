@@ -6,4 +6,5 @@ export default defineNuxtConfig({
   },
   modules: ['@unocss/nuxt', '@vueuse/nuxt', '@nuxtjs/eslint-module'],
   css: ['@unocss/reset/tailwind.css'],
+  ssr: false,
 });
