@@ -2,11 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   typescript: {
-    strict: true
+    strict: true,
   },
-  modules: [
-    '@unocss/nuxt',
-    '@vueuse/nuxt',
-  ],
+  modules: ['@unocss/nuxt', '@vueuse/nuxt', '@nuxtjs/eslint-module'],
   css: ['@unocss/reset/tailwind.css'],
-})
+});

@@ -1,10 +1,5 @@
-import {
-  defineConfig,
-  presetAttributify,
-} from 'unocss';
+import { defineConfig, presetAttributify } from 'unocss';
 
 export default defineConfig({
-  presets: [
-    presetAttributify(),
-  ],
+  presets: [presetAttributify()],
 });
