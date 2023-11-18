@@ -10,6 +10,6 @@ export default defineNuxtConfig({
     '@nuxtjs/eslint-module',
     '@pinia/nuxt',
   ],
-  css: ['@unocss/reset/tailwind.css'],
+  css: ['@unocss/reset/tailwind-compat.css'],
   ssr: false,
 });
