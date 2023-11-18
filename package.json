@@ -15,6 +15,7 @@
     }
   },
   "devDependencies": {
+    "@iconify-json/ion": "^1.1.12",
     "@nuxt/devtools": "latest",
     "@nuxtjs/eslint-module": "^4.1.0",
     "@typescript-eslint/eslint-plugin": "^6.11.0",
@@ -22,6 +23,7 @@
     "@unocss/eslint-config": "^0.57.5",
     "@unocss/nuxt": "^0.57.5",
     "@unocss/preset-attributify": "^0.57.5",
+    "@unocss/preset-icons": "^0.57.5",
     "@vueuse/core": "^10.6.1",
     "@vueuse/nuxt": "^10.6.1",
     "cz-git": "^1.7.1",

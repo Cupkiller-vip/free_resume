@@ -1,4 +1,9 @@
-import { defineConfig, presetUno, presetAttributify } from 'unocss';
+import {
+  defineConfig,
+  presetUno,
+  presetAttributify,
+  presetIcons,
+} from 'unocss';
 
 export default defineConfig({
   presets: [
@@ -6,5 +11,11 @@ export default defineConfig({
       attributifyPseudo: true,
     }),
     presetAttributify(),
+    presetIcons({
+      collections: {
+        ion: () =>
+          import('@iconify-json/ion/icons.json').then((i) => i.default),
+      },
+    }),
   ],
 });
