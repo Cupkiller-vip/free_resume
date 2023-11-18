@@ -11,9 +11,6 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     'nuxt-primevue',
   ],
-  css: [
-    '@unocss/reset/tailwind-compat.css',
-    'primevue/resources/themes/lara-light-teal/theme.css',
-  ],
+  css: ['primevue/resources/themes/lara-light-teal/theme.css'],
   ssr: false,
 });
