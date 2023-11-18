@@ -58,6 +58,9 @@ devDependencies:
   nuxt:
     specifier: ^3.8.1
     version: 3.8.1(eslint@8.53.0)(typescript@5.2.2)(vite@4.5.0)
+  nuxt-primevue:
+    specifier: ^0.2.0
+    version: 0.2.0(vue@3.3.8)
   prettier:
     specifier: ^3.1.0
     version: 3.1.0
@@ -5275,6 +5278,17 @@ packages:
       fsevents: 2.3.3
     dev: true
 
+  /nuxt-primevue@0.2.0(vue@3.3.8):
+    resolution: {integrity: sha512-t/PwxerblyEqe1SCm3CtNxWGLni12lsf7C7XyakHLVHKslZXs5M0fwAHCX9dPsTSOzs74/zNh2CKHtLt4mXdnQ==}
+    dependencies:
+      '@nuxt/kit': 3.8.1
+      primevue: 3.40.1(vue@3.3.8)
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+      - vue
+    dev: true
+
   /nuxt@3.8.1(eslint@8.53.0)(typescript@5.2.2)(vite@4.5.0):
     resolution: {integrity: sha512-RSGO56Gv0x2f6AXWw4o4GoBaVdsD0qkPCjrX7Ud/jzH3cRJoyYMPuq/9AOLvf2o1ecZWl39j5elqJ4QHmggyOA==}
     engines: {node: ^14.18.0 || >=16.10.0}
@@ -5955,6 +5969,14 @@ packages:
   /pretty-bytes@6.1.1:
     resolution: {integrity: sha512-mQUvGU6aUFQ+rNvTIAcZuWGRT9a6f6Yrg9bHs4ImKF+HZCEK+plBvnAZYSIQztknZF2qnzNtr6F8s0+IuptdlQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
+    dev: true
+
+  /primevue@3.40.1(vue@3.3.8):
+    resolution: {integrity: sha512-TIFjoSUDiTmlxwQddaWckzcPIpj0F8a6ZMnm0tpAD/ieyUIHnNpbAi5de8LQf8eF0b+x5EkOkdjdngSlD+iPCw==}
+    peerDependencies:
+      vue: ^3.0.0
+    dependencies:
+      vue: 3.3.8(typescript@5.2.2)
     dev: true
 
   /proc-log@3.0.0:

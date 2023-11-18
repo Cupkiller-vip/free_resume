@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxtjs/eslint-module',
     '@pinia/nuxt',
+    'nuxt-primevue',
   ],
   css: ['@unocss/reset/tailwind-compat.css'],
   ssr: false,
