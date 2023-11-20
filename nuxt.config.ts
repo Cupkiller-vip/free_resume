@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxtjs/eslint-module',
     '@pinia/nuxt',
     'nuxt-primevue',
+    '@nuxt/image',
   ],
   css: [
     '~/assets/base.css',
